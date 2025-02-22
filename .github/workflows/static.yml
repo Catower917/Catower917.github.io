@@ -35,8 +35,9 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-            name: static-site-${{ github.sha }}
-            path: '.'
+            name: good
+            path: .
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
