@@ -18,8 +18,10 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #007bff;
-  --secondary: #6c757d;
+  /* --primary: #007bff;
+  --secondary: #6c757d; */
+  --primary: #6a0dad; /* 퍼플AILAB 퍼플 */
+  --secondary: #121212; /* 블랙 */
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -55,9 +57,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: var(--text-color);
   text-align: left;
-  background-color: #fff; }
+  background-color: var(--dark); }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -3427,6 +3429,7 @@ input[type="button"].btn-block {
 
 .navbar {
   position: relative;
+  background-color: var(--secondary) !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3476,6 +3479,7 @@ input[type="button"].btn-block {
   margin-bottom: 0;
   list-style: none; }
   .navbar-nav .nav-link {
+    color: var(--text-color) !important;
     padding-right: 0;
     padding-left: 0; }
   .navbar-nav .dropdown-menu {
