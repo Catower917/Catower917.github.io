@@ -20,8 +20,8 @@
   --gray-dark: #343a40;
   /* --primary: #007bff;
   --secondary: #6c757d; */
-  --primary: #6a0dad !important; /* 퍼플AILAB 퍼플 */
-  --secondary: #121212 !important; /* 블랙 */
+  --primary: #6a0dad;
+  --secondary: #121212; 
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
